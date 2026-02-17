@@ -81,3 +81,22 @@ SELECT dept, SUM(salary) AS total_salary
 FROM employees
 GROUP BY dept
 HAVING SUM(salary) > 100000;
+
+
+/*
+🔥 What You Learned
+
+✔ CREATE DATABASE
+✔ CREATE TABLE
+✔ INSERT multiple values
+✔ SELECT
+✔ MAX()
+✔ AVG()
+✔ SUM()
+✔ GROUP BY
+✔ HAVING
+✔ Subquery
+✔ ORDER BY
+✔ LIMIT
+
+*/
